@@ -30,3 +30,22 @@ Google can require domain ownership verification for branding. Prefer a custom d
 Official guidance: https://developers.google.com/identity/protocols/oauth2/production-readiness/policy-compliance
 
 The policy describes the inspected app's local records, Google Drive app-data backup, Dropbox, iCloud/device backups, and support contact. Keep it updated when app behavior or data practices change. Real app screenshots and a verified App Store listing link can be added later; none are fabricated here.
+
+## Sifrilo
+
+- App page: https://netanelvision.github.io/appswebsite/sifrilo/
+- Privacy Policy URL: https://netanelvision.github.io/appswebsite/sifrilo/privacy/
+- Support URL: https://netanelvision.github.io/appswebsite/sifrilo/support/
+
+Edit `scripts/pages/sifrilo*.html`. Set the verified Apple listing URL in
+`scripts/sifrilo.json` (`app_store_url`) to enable the App Store button, then
+run `python3 scripts/build.py`. No App Store URL is fabricated when unset.
+
+Privacy content reflects the inspected app on October 4, 2026, including local
+learning records, optional recordings, reward images, parent-initiated email,
+and conditional RevenueCat subscriptions (disabled in the inspected config).
+Update this policy when the released app changes. The support address follows
+the existing site: netanelvision@gmail.com.
+
+
+Sifrilo localization: English is the default at `/sifrilo/`, `/sifrilo/privacy/`, and `/sifrilo/support/`. Hebrew pages are at `/sifrilo/he/`, `/sifrilo/he/privacy/`, and `/sifrilo/he/support/`. Former `/sifrilo/en/` URLs redirect to the corresponding default English pages.
