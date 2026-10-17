@@ -6,3 +6,6 @@
 .sifrilo-art{background:linear-gradient(145deg,#4338a7,#8b7ef5)}.sifrilo-art img{transform:rotate(5deg)}.sifrilo-page h1,.sifrilo-page h2{letter-spacing:0}.sifrilo-actions{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin:14px 0 20px}.button.secondary{background:transparent;color:var(--blue);box-shadow:inset 0 0 0 1px var(--blue)}.store-status{font-size:16px;color:var(--muted);margin:0}.sifrilo-english{border-top:1px solid var(--line);padding-top:28px;margin-top:44px}.app-card .meta{margin-top:18px}html{scroll-behavior:smooth}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
 .language-switch{justify-content:flex-end;gap:8px;flex-wrap:wrap}.language-switch a{padding:8px 14px;border:1px solid var(--line);border-radius:8px}.language-switch a[aria-current=page]{background:var(--blue);color:var(--bg);font-weight:700}.sifrilo-page[dir=rtl] .note{border-left:0;border-right:3px solid var(--blue)}
+
+/* BabySafeDrive+ */
+.baby-art{background:linear-gradient(145deg,#123e4b,#247d83)}

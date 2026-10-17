@@ -49,3 +49,15 @@ the existing site: netanelvision@gmail.com.
 
 
 Sifrilo localization: English is the default at `/sifrilo/`, `/sifrilo/privacy/`, and `/sifrilo/support/`. Hebrew pages are at `/sifrilo/he/`, `/sifrilo/he/privacy/`, and `/sifrilo/he/support/`. Former `/sifrilo/en/` URLs redirect to the corresponding default English pages.
+
+## BabySafeDrive+
+
+- App page: `/babysafedrive/`
+- Support URL: `/babysafedrive/support/`
+- Privacy Policy URL: `/babysafedrive/privacy/`
+
+Edit `scripts/pages/babysafedrive*.html`, then run `python3 scripts/build.py`.
+The icon comes from the BabySafeDrive iOS asset catalog. Content reflects the
+local app source inspected October 17, 2026, including background location,
+local reminders, driving history and user-sent support diagnostics. Review
+this policy when app behavior changes. No unverified App Store URL is added.
