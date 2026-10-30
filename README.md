@@ -61,3 +61,11 @@ The icon comes from the BabySafeDrive iOS asset catalog. Content reflects the
 local app source inspected October 17, 2026, including background location,
 local reminders, driving history and user-sent support diagnostics. Review
 this policy when app behavior changes. No unverified App Store URL is added.
+
+## Pristine Disk
+
+- App page: `/pristinedisk/`
+- Support: `/pristinedisk/support/`
+- Privacy: `/pristinedisk/privacy/`
+
+Edit `scripts/pages/pristinedisk*.html`, then run `python3 scripts/build.py`. Assets are in `dist/assets/pristinedisk/`. App Store availability is marked coming soon; add the public listing URL after it is live. Pricing is explicitly labeled planned. Folder-access limitations and disabled simulator cleanup are disclosed.

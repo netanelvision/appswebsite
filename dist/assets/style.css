@@ -9,3 +9,6 @@
 
 /* BabySafeDrive+ */
 .baby-art{background:linear-gradient(145deg,#123e4b,#247d83)}
+
+/* Pristine Disk */
+.pristine-art{background:linear-gradient(145deg,#05253d,#126e83)}.pristine-art img{transform:rotate(-4deg)}.pristine-developer{margin-top:44px}.pristine-screenshots{grid-template-columns:repeat(2,minmax(0,1fr))}.pristine-screenshots a{display:block}.pristine-screenshots img{aspect-ratio:16/10}.pristine-screenshots a:focus-visible{outline:3px solid var(--blue);outline-offset:5px}@media(max-width:650px){.pristine-screenshots{grid-template-columns:1fr}}
