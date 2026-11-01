@@ -69,3 +69,13 @@ this policy when app behavior changes. No unverified App Store URL is added.
 - Privacy: `/pristinedisk/privacy/`
 
 Edit `scripts/pages/pristinedisk*.html`, then run `python3 scripts/build.py`. Assets are in `dist/assets/pristinedisk/`. App Store availability is marked coming soon; add the public listing URL after it is live. Pricing is explicitly labeled planned. Folder-access limitations and disabled simulator cleanup are disclosed.
+
+## LOVE BALL
+
+- App page: `/loveball/`
+- Support: `/loveball/support/`
+- Privacy: `/loveball/privacy/`
+
+Edit `scripts/pages/loveball*.html`, then run `python3 scripts/build.py`.
+The icon is copied from the LOVE BALL asset catalog into `dist/assets/loveball/`.
+Content reflects the app source inspected November 1, 2026. Availability is marked coming soon until a public App Store URL is supplied.
