@@ -15,3 +15,6 @@
 
 /* LOVE BALL */
 .loveball-art{background:radial-gradient(ellipse at center,#6e326e,#210d32 75%);position:relative}.loveball-art img{transform:rotate(0);box-shadow:0 18px 60px #ed92ba55}.loveball-card .eyebrow,.loveball-page .eyebrow,.loveball-page .feature-number{color:#92506e}.loveball-card .button,.loveball-page .button{background:#773c6c;color:#fff}.loveball-page h1{font-family:Georgia,serif;font-weight:400}.loveball-page .note{border-color:#ae6f94}@media(prefers-color-scheme:dark){.loveball-card .eyebrow,.loveball-page .eyebrow,.loveball-page .feature-number{color:#efb1cd}}
+
+/* Pristine Disk iPhone */
+.mobile-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin:28px 0}.mobile-gallery img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:16px}.mobile-demo{display:grid;grid-template-columns:1fr minmax(240px,360px);gap:60px;align-items:center;margin:64px 0}.mobile-demo video{display:block;width:100%;height:auto;aspect-ratio:886/1920;border-radius:18px;background:#061322;border:1px solid var(--line)}.pristine-mobile #screenshots{scroll-margin-top:24px}@media(max-width:650px){.mobile-gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.mobile-demo{grid-template-columns:1fr;gap:24px}.mobile-demo video{max-width:360px;margin:auto}}

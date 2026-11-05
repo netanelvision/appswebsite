@@ -79,3 +79,15 @@ Edit `scripts/pages/pristinedisk*.html`, then run `python3 scripts/build.py`. As
 Edit `scripts/pages/loveball*.html`, then run `python3 scripts/build.py`.
 The icon is copied from the LOVE BALL asset catalog into `dist/assets/loveball/`.
 Content reflects the app source inspected November 1, 2026. Availability is marked coming soon until a public App Store URL is supplied.
+
+## Pristine Disk for iPhone
+
+Separate from the Mac app. English product, support and privacy templates are `scripts/pages/pristinedisk-ios*.html`. Assets live in `dist/assets/pristinedisk-ios/`. Run `python3 scripts/build.py` after edits. The gallery starts with scanning and includes all five supplied marketing screenshots, the real app icon and a self-hosted preview video. No analytics or external embeds.
+
+App Store Connect URLs after deployment:
+- Marketing: https://netanelvision.github.io/appswebsite/pristinedisk-ios/
+- Support: https://netanelvision.github.io/appswebsite/pristinedisk-ios/support/
+- Privacy Policy: https://netanelvision.github.io/appswebsite/pristinedisk-ios/privacy/
+- Standard Apple EULA: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+
+Support email: netanelvision@gmail.com. Availability is marked coming soon until a verified App Store listing is supplied. Content reflects the inspected iPhone source on November 5, 2026. File AI requires iOS 26 and compatible Apple Intelligence; basic scanning does not. No email cleanup or exact duplicate-file feature is advertised. Review App Privacy answers against the actual submitted binary and any later SDK changes; this website does not submit App Store Connect forms.
