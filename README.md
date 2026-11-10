@@ -91,3 +91,11 @@ App Store Connect URLs after deployment:
 - Standard Apple EULA: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 Support email: netanelvision@gmail.com. Availability is marked coming soon until a verified App Store listing is supplied. Content reflects the inspected iPhone source on November 5, 2026. File AI requires iOS 26 and compatible Apple Intelligence; basic scanning does not. No email cleanup or exact duplicate-file feature is advertised. Review App Privacy answers against the actual submitted binary and any later SDK changes; this website does not submit App Store Connect forms.
+
+## TreasureTales
+
+- App page: `/treasuretales/` (Hebrew: `/treasuretales/he/`)
+- Support: `/treasuretales/support/` (`/treasuretales/he/support/`)
+- Privacy: `/treasuretales/privacy/` (`/treasuretales/he/privacy/`)
+
+Listed first on the homepage. Edit `scripts/pages/treasuretales*.html`, then run `python3 scripts/build.py`. Assets are in `dist/assets/treasuretales/` (icon from the app's `assets/icon.png`, screenshots from the TreasureTales website, resized). The page design follows the app's marketing screenshots: dark background, gold accents, parchment note. Screenshots showing real map locations were intentionally left out. Content comes from the existing TreasureTales website (support and privacy last updated September 7, 2026). Availability is marked coming soon until a public App Store URL is supplied.
